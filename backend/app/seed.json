@@ -1,0 +1,254 @@
+{
+ "profile": {
+  "name": "Sandeepan Podder",
+  "title": "M.Tech Computer Science and Engineering",
+  "institute": "Indian Institute of Technology, Tirupati",
+  "headline": "Building Intelligent Systems Through Research, Engineering & Experimentation.",
+  "tagline": "I work across computer vision, machine learning, deep learning, and computer systems, with an interest in developing practical solutions to challenging engineering problems.",
+  "status": "Open to Research & Engineering Opportunities",
+  "email": "sandeepanpodder2002612@gmail.com",
+  "phone": "6295310309",
+  "location": "Habra, West Bengal, India",
+  "image": "/profile-placeholder.svg",
+  "cv_url": "/Sandeepan_Podder_CV.pdf",
+  "about": [
+   "I am an M.Tech student in Computer Science and Engineering at IIT Tirupati, following a B.Tech in Computer Science and Engineering from GCELT.",
+   "My interests are machine learning, computer vision, deep learning and computer systems. I enjoy implementing research-oriented projects as well as building practical software applications.",
+   "Most of all, I am drawn to the loop of research, engineering and experimentation."
+  ],
+  "certifications": [
+   {
+    "title": "Cryptography and Network Security",
+    "issuer": "NPTEL",
+    "detail": "Elite Certificate, 83%"
+   },
+   {
+    "title": "Python Certification",
+    "issuer": "Coursera",
+    "detail": ""
+   }
+  ],
+  "interests": [
+   "Computer Vision",
+   "Deep Learning",
+   "Machine Learning",
+   "Computer Systems",
+   "Memory Hierarchies and Prefetching",
+   "Cryptography and Network Security"
+  ]
+ },
+ "education": [
+  {
+   "degree": "M.Tech Computer Science and Engineering",
+   "school": "IIT Tirupati",
+   "period": "2026",
+   "score": "CGPA: 7.37"
+  },
+  {
+   "degree": "B.Tech Computer Science and Engineering",
+   "school": "GCELT",
+   "period": "2021–2025",
+   "score": "CGPA: 8.90"
+  },
+  {
+   "degree": "Senior Secondary",
+   "school": "Prafullanagar VidyaMandir (H.S.)",
+   "period": "2020",
+   "score": "Marks: 77"
+  },
+  {
+   "degree": "Secondary",
+   "school": "Prafullanagar VidyaMandir (H.S.)",
+   "period": "2018",
+   "score": "Marks: 87"
+  }
+ ],
+ "experience": [
+  {
+   "role": "Research Internship",
+   "org": "GCECT",
+   "period": "June 2023 – September 2023",
+   "points": [
+    "Worked on Python image processing techniques for food adulteration detection.",
+    "Developed preprocessing and image-enhancement pipelines.",
+    "Analysed visual characteristics of food samples."
+   ]
+  },
+  {
+   "role": "Campus Business Manager",
+   "org": "PrepBytes",
+   "period": "January 2023 – December 2023",
+   "points": [
+    "Conducted 10+ promotional campaigns.",
+    "Reached 500+ students.",
+    "Organised coding events and technical sessions.",
+    "Coordinated 15+ student volunteers."
+   ]
+  }
+ ],
+ "skills": {
+  "Programming": [
+   "C",
+   "C++",
+   "Python",
+   "SQL"
+  ],
+  "Tools and Operating Systems": [
+   "Git",
+   "GitHub",
+   "Linux",
+   "Docker",
+   "Conda",
+   "ChampSim",
+   "Google Colab"
+  ],
+  "Libraries and Frameworks": [
+   "PyTorch",
+   "TensorFlow",
+   "Scikit-learn",
+   "Pandas",
+   "NumPy",
+   "OpenCV",
+   "FastAPI",
+   "Flask",
+   "Django"
+  ],
+  "Databases": [
+   "PostgreSQL",
+   "MySQL",
+   "MongoDB"
+  ]
+ },
+ "social_links": [
+  {
+   "name": "GitHub",
+   "url": "https://github.com/sparkyatom"
+  },
+  {
+   "name": "LinkedIn",
+   "url": "https://www.linkedin.com/in/sandeepan-podder-02055822a/"
+  },
+  {
+   "name": "Instagram",
+   "url": "https://www.instagram.com/sandeepan.podder/"
+  },
+  {
+   "name": "Facebook",
+   "url": "https://www.facebook.com/profile.php?id=100074809817393"
+  },
+  {
+   "name": "Email",
+   "url": "mailto:sandeepanpodder2002612@gmail.com"
+  }
+ ],
+ "projects": [
+  {
+   "title": "TCGN/CTCGN: Graph-Based Memory Prefetcher",
+   "period": "January 2026 – April 2026",
+   "points": [
+    "Implemented a Temporal Convolutional Graph Network-based prefetcher in ChampSim.",
+    "Designed correlation-based prefetching using memory access graph modelling.",
+    "Extended it to CTCGN with context-aware cache access patterns.",
+    "Integrated at L2 cache and evaluated using SPEC CPU benchmarks."
+   ],
+   "tech": [
+    "C++",
+    "Python",
+    "PyTorch",
+    "ChampSim",
+    "GCC",
+    "NumPy",
+    "Pandas",
+    "Matplotlib"
+   ],
+   "github": null,
+   "demo": null,
+   "image": "/projects/project-prefetcher.svg"
+  },
+  {
+   "title": "Biometric Attendance System",
+   "period": "November 2024 – February 2025",
+   "points": [
+    "Led a five-member team.",
+    "Built facial-recognition-based automated attendance with group-photo recognition.",
+    "Built preprocessing, face encoding, training and recognition modules.",
+    "Integrated with an ERP backend using SQL connectivity."
+   ],
+   "tech": [
+    "Python",
+    "OpenCV",
+    "face_recognition",
+    "dlib",
+    "NumPy",
+    "SQLite/MySQL",
+    "Flask"
+   ],
+   "github": null,
+   "demo": null,
+   "image": "/projects/project-biometric.svg"
+  },
+  {
+   "title": "Movie Recommendation System",
+   "period": "December 2023 – July 2024",
+   "points": [
+    "Content-based recommendations using cosine similarity.",
+    "Feature engineering on movie metadata with Top-N recommendations.",
+    "Interactive Streamlit interface."
+   ],
+   "tech": [
+    "Python",
+    "Pandas",
+    "NumPy",
+    "Scikit-learn",
+    "Streamlit",
+    "TMDB API"
+   ],
+   "github": null,
+   "demo": null,
+   "image": "/projects/project-recommendation.svg"
+  },
+  {
+   "title": "Food Adulteration Dataset Creation",
+   "period": "June 2023 – September 2023",
+   "points": [
+    "Image preprocessing and enhancement.",
+    "Food-related image analysis."
+   ],
+   "tech": [
+    "Python",
+    "PyTorch",
+    "NumPy",
+    "OpenCV"
+   ],
+   "github": null,
+   "demo": null,
+   "image": "/projects/project-food.svg"
+  },
+  {
+   "title": "Face Image Dataset Collection",
+   "period": "November 2024 – February 2025",
+   "points": [
+    "ML dataset collection involving 50+ users."
+   ],
+   "tech": [
+    "Dataset"
+   ],
+   "github": null,
+   "demo": null,
+   "image": "/projects/project-face-images.svg"
+  },
+  {
+   "title": "Face Video Dataset Collection",
+   "period": "November 2024 – February 2025",
+   "points": [
+    "ML dataset collection involving 50+ users."
+   ],
+   "tech": [
+    "Dataset"
+   ],
+   "github": null,
+   "demo": null,
+   "image": "/projects/project-face-videos.svg"
+  }
+ ]
+}

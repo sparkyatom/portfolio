@@ -1,0 +1,12 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+:root{--bg:#F6F7FB;--surf:#FFFFFF;--a1:#3D5AD6;--a2:#0A7A70;--on:#FFFFFF;--tx:#111827;--mute:#566074;--line:rgba(0,0,0,.1)}
+.dark{--on:#0B1020;--bg:#0B1020;--surf:#172033;--a1:#7C9CFF;--a2:#63D5C6;--tx:#F3F4F6;--mute:#A3AEC2;--line:rgba(255,255,255,.1)}
+html{scroll-behavior:smooth}body{background:var(--bg);color:var(--tx);font-family:Inter,system-ui,sans-serif;transition:background .4s,color .4s;overflow-x:hidden}
+.neu{background:var(--surf);border:1px solid var(--line);box-shadow:8px 8px 18px rgba(0,0,0,.25),-4px -4px 12px rgba(255,255,255,.03)}
+.glass{background:color-mix(in srgb,var(--surf) 60%,transparent);backdrop-filter:blur(14px);border:1px solid var(--line)}
+.chip{border:1px solid var(--line);border-radius:6px;padding:2px 8px;font-size:.75rem;color:var(--mute)}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+body{line-height:1.65}
+.bg-dots{background-image:radial-gradient(var(--line) 1px,transparent 1px);background-size:28px 28px;mask-image:linear-gradient(to bottom,#000 30%,transparent 95%)}
+:root:not(.dark) .neu{box-shadow:7px 7px 16px rgba(17,24,39,.08),-6px -6px 14px rgba(255,255,255,.9)}
+@keyframes pulse2{0%,100%{opacity:.5}50%{opacity:1}}.pulse{animation:pulse2 4s ease-in-out infinite}
